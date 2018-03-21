@@ -9,8 +9,8 @@ and do some command
 $> cd pychat/
 ```
 ```bash
-$> chmod +x pychat.py client.py
+$> chmod +x -R src
 ```
 ```bash
-$> ./pychat.py
+$> ./src/pychat.py
 ```
