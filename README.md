@@ -6,11 +6,11 @@ clone this repo
 
 and do some command 
 ```bach
-$ cd pychat/
+$> cd pychat/
 ```
 ```bash
-$ chmod +x pychat.py client.py
+$> chmod +x pychat.py client.py
 ```
 ```bash
-$ ./pychat.py
+$> ./pychat.py
 ```
