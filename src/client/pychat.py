@@ -22,7 +22,7 @@ class MyDialog(tkinter.simpledialog.Dialog):
     def apply(self):
         host = self.e1.get()
         port = self.e2.get()
-        subprocess.Popen("./client.py " + host + " " + port, shell=True)
+        subprocess.Popen("./src/client/client.py " + host + " " + port, shell=True)
 
 
 root = tkinter.Tk()
