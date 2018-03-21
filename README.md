@@ -12,5 +12,5 @@ $> cd pychat/
 $> chmod -R +x src
 ```
 ```bash
-$> ./src/pychat.py
+$> ./src/client/pychat.py
 ```
