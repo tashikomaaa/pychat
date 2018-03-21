@@ -14,6 +14,7 @@ def receive():
 def send(event=None):
     print(repr(client_socket))
     msg = my_msg.get()
+    my_msg.set("")
     client_socket.send(bytes(msg, "utf-8"))
     if msg == "{quit}":
         client_socket.close()
